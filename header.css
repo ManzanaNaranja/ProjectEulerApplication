@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    /* background-color: gray; */
+    
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    /* padding: 20px; */
+}
+
+li, #user {
+    padding: 20px;
+}
+
+/* below is for body */
+
+table{
+    margin-left: 50px;
+}
+table, th, td{
+    
+    padding: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#mini-nav{
+    margin-left: 50px;
+    display: block;
+
+}
+
+.num{
+    background-color: red;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+}
+
+.active, .num:hover{
+    background-color: blue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.question{ 
+    border: 1px solid red;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.answer{
+    border: 1px solid red;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+
+form{
+    max-width: 50%;
+}
+
+
+/* form{
+    border: 1px solid red;
+    margin-left: 50px;
+    display: inline-block;
+    
+    padding: 20px;
+} */
+
+form > input, textarea{
+    padding: 9px 25px;
+    margin: 10px;
+}
+
+
+.error{
+    border: 3px solid red;
+    background-color: #ffa9a9;
+    margin: 10px;
+}
+
+.success{
+    border: 3px solid rgb(0, 104, 22);
+    background-color: rgb(0, 255, 55);
+    margin: 10px;
+}
+
+#admin-add-question{
+    margin-left: 50px;  
+    margin-top: 10px;
+    padding: 9px 25px;
+    
+}
+button{
+    margin-top: 10px;
+    padding: 9px 25px;
+}
+
+
+
+
+
